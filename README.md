@@ -14,7 +14,7 @@ For model I, we simulate the changing process of each fungal population based on
 ![test](./Decomposition-Model/2.png)
 
 ### Cellular Automata Model
-. Our model verifies the influence of the environment on the succession of fungi:environmental changes may change types of dominant strains, enhance the relative competitiveness of strains with strong tolerance to environmental changes, and weaken the relative competition of strains with poor resistance to environmental changes. Additionally, we
+Our model verifies the influence of the environment on the succession of fungi:environmental changes may change types of dominant strains, enhance the relative competitiveness of strains with strong tolerance to environmental changes, and weaken the relative competition of strains with poor resistance to environmental changes. Additionally, we
 test the sensitivity of the model to temperature, humidity, fungal extension rate, moisture tolerance and high temperature resistance. It is found that the model is more sensitive to changes in fungal extension rate, humidity resistance and high temperature resistance, while it is more consistent with the real situation.
 ![cell_season](./Cellular-Automata/Figure/cell-season.png)
 
@@ -22,6 +22,19 @@ test the sensitivity of the model to temperature, humidity, fungal extension rat
 For model III, to quantitatively describe the decomposition rate of each strain, we apply a mixed linear regression equation to establish the relationship between the decomposition rate and the extension rate and moisture tolerance. Combining with Model II, we calculate the total
 decomposition efficiency in a certain system and analyze the effect of fungal species on the decomposition efficiency. Finally, we predict the importance and role of biodiversity based on our three models.
 
+
+## File Tree 
+```
+|--Celluar-Automata
+|  |-data
+|  |-Figure
+|  |-src (main code)
+|  |-utils
+| 
+|--Decomposition-Model
+|
+|--Problems (ICM-MCM Problems for 2021)
+```
 
 
 
